@@ -24,5 +24,6 @@ Use IntelliJ IDEA Software for Coding
 15.  In the URL, hit  [YourIPAddress]:8080/swagger-ui/index.html#/    replace [YourIPAddress] to your localIpAddress of PC which is updated in Prometheus.yml file
 16.  Hit [YourIPAddress]:9090/  for Prometheus dashboard
 17.  Hit [YourIPAddress]:3000/  for Grafana Dashboard
-18.             Grafana Dashboard Configuration will be released soon ..... Hope you like it... Star my repo as a Support towards my work
+18.       Grafana Dashboard Configuration will be released soon ..... 
+19.       Hope you like it...  Star my repo as a Support towards my work
        
