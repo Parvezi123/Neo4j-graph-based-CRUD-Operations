@@ -1,5 +1,5 @@
 # Neo4j-graph-based-CRUD-Operations
-User Movie Model of Neo4j, A Graph based Database is used for Storing and retrieving the information for CRUD Operations
+User Movie Model of Neo4j, A Graph based Database is used for Storing and retrieving the information for CRUD Operations with Docker
 
 ## Updates
 1.  Updated the code of  *../conf/prometheus.yml*   and no need to update IpAddress inside prometheus.yml
