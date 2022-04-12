@@ -1,13 +1,19 @@
 # Neo4j-graph-based-CRUD-Operations
 User Movie Model of Neo4j, A Graph based Database is used for Storing and retrieving the information for CRUD Operations
 
+## Updates
+1.  Updated the code of  *../conf/prometheus.yml*   and no need to update IpAddress inside prometheus.yml
+2.  Avoid Line 3 and Line 4
+
+
+
 ## INSTALLATION STEPS
 Use IntelliJ IDEA Software for Coding
 1. Clone the Repository to your Local Machine.
 2. Open the  pom.xml file and Update (load) the dependencies. Press ( Ctrl + Shift + O )
-3. **Replace your IpAddress in the Prometheus.yml file as below example**
-4. Example:  From  =>   targets: ['IpAddress:8080']    to    targets: ['192.168.0.102:8080']   <= take IpAddress from ipconfig command frpm cmd
-5. Create jar file, by executing the below command in IntelliJ Builtin Terminal =>   
+~~3. **Replace your IpAddress in the Prometheus.yml file as below example**~~
+~~4. Example:  From  =>   targets: ['IpAddress:8080']    to    targets: ['192.168.0.102:8080']   <= take IpAddress from ipconfig command frpm cmd~~
+5. Create jar file, by executing the below command in IntelliJ Built-in Terminal =>   
 6.      ./mvnw clean install -DskipTests
 7. Install the Docker Desktop => https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe
 8. Install Neo4j Community Desktop => https://go.neo4j.com/download-thanks.html?edition=community&release=4.4.5&flavour=winzip
